@@ -1,43 +1,137 @@
-<!doctype html>
-<html lang="ru" ng-app="designApp">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Design 2</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="utf-8" />
+  <title>Ружейников М.А.</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
-  <link rel="stylesheet" href="style.css" />
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </head>
 
-<body ng-controller="AppController">
+<body>
 
-  <md-toolbar layout="row" class="md-toolbar-tools">
-    <md-button class="menu md-icon-button" hide-gt-xs ng-click="toggle()" aria-label="Show User List">
-      <md-icon md-font-set="md">menu</md-icon>
-    </md-button>
-    <h1 flex md-truncate><b>Design 2</b></h1>
-    <div hide-xs>
-      <md-button ng-href="#!/topics">Главная</md-button>
-      <md-button ng-href="#!/about">О сайте</md-button>
+<div class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__fio">Ружейников Михаил</div>
+            <div class="header__subtext">ИДБ-16-05</div>
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#section_1">Лаба 1</a>
+                <a class="nav__link" href="#section_2">Лаба 2</a>
+                <a class="nav__link" href="#section_3">Лаба 3</a>
+                <a class="nav__link" href="#section_4">Лаба 4</a>
+                <a class="nav__link" href="#section_5">Лаба 5</a>
+                <a class="nav__link" href="#section_6">Лаба 6</a>
+                <a class="nav__link" href="#section_7">Лаба 7</a>
+            </nav>
+            <input type="button" value="Старт" id="btnStartApp" >
+        </div>
     </div>
-  </md-toolbar>
+</div>
 
-  <div flex layout="row">
+<section class="section" id="section_1">
+    <div class="container">
 
-    <md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="drawer" ng-click="toggle()">
-      <div layout="column">
-        <md-button ng-href="#!/topics">Главная</md-button>
-        <md-button ng-href="#!/about">О сайте</md-button>
-      </div>
-    </md-sidenav>
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 1</div>
+            <div class="section__inner">
+            <input type="text" id="txtAlert">
+            <input type="button" value="Жмякни" id="btnAlert" >
+            </div>
+        </div>
 
-    <md-content flex id="content">
-      <div ng-view></div>
-    </md-content>
+    </div>
+</section>
 
-  </div>
+<section class="section section--even" id="section_2">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 2</div>
+            <div class="section__inner">
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="section_3">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 3</div>
+            <div class="section__inner">
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section section--even" id="section_4">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 4</div>
+            <div class="section__inner">
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="section_5">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 5</div>
+            <div class="section__inner">
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section section--even" id="section_6">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 6</div>
+            <div class="section__inner">
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="section_7">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 7</div>
+            <div class="section__inner">
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div id="button-up">
+    <br>
+</div>
+
+<div class="footer">
+    <h3>the end</h3>
+    <br>
+    <h3>2020</h3>
+</div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
