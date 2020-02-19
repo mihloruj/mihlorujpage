@@ -4,7 +4,7 @@ $(document).ready(function(){
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 750);
+        $('body,html').animate({scrollTop: top}, 1250);
     });
 
     
@@ -35,7 +35,7 @@ $(document).ready(function(){
     $('#button-up').click(function () {
         $('body,html').animate({
             scrollTop: 0
-        }, 500);
+        }, 1250);
         return false;
     });
 
