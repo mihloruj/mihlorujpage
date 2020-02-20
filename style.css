@@ -142,6 +142,18 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
+.diagramm img {
+	-webkit-transform: scale(0.75);
+	transform: scale(0.75);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.diagramm:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
 
 /* Button UP */
 
