@@ -121,9 +121,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__title {
+    margin-bottom: 20px;
     font-size: 25px;
     color: #fff;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section_subtitle {
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.diagramm {
     display: flex;
     justify-content: center;
 }
