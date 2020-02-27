@@ -204,8 +204,114 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
+/* Calculator */
 
+.calculator__group {
+    display: flex;
+    padding-left: 50px;
+}
 
+.calculator__uml img {
+    padding-top: 18px;
+    transform: scale(0.9);
+    transition: .3s ease-in-out;
+}
+
+.calculator__uml:hover img {
+    transform: scale(1);
+}
+
+.calculator__info p {
+    text-align: center;
+    color: #fff;
+}
+
+#section_3 {
+    background: url("images/bg_test.gif") no-repeat;
+    background-size: 100% 100vh;
+}
+
+#section_4 {
+    background: url("images/rikardo.gif") no-repeat;
+    background-size: 100% 100vh;
+}
+#section_5 {
+    background: url("images/kermit.gif") no-repeat;
+    background-size: 100% 100vh;
+}
+
+#section_6 {
+    background: url("images/kermit_surprise.gif") no-repeat;
+    background-size: 100% 100vh;
+}
+
+#section_7 {
+    background: url("images/kermit_floating.gif") no-repeat;
+    background-size: 100% 100vh;
+}
+.calculator {
+    position: absolute;
+    right: 150px;
+    width: 250px;
+    height: 320px;
+    border: 2px solid black;
+    margin: 30px auto 0;
+    text-align: center;
+    background: rgb(245,246,23);
+    background: linear-gradient(0deg, rgba(245,246,23,1) 39%, rgba(44,139,199,1) 67%);
+    
+    /*background: url("images/shrek.png") no-repeat;*/
+    background-size: 250px 320px;
+    box-shadow: 0 0 30px grey;
+    border-radius: 4px;    
+}
+
+.calculator__form {
+    height: 100%;
+    padding: 20px;    
+}
+
+.calculator__row {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator__display {
+    margin: 0 0 20px;
+    width: 100%;
+    border: 1px solid darkslateblue;
+    padding: 4px 2px;
+    text-align: right;
+    font: 700 16px/1 Arial, sans-serif;
+    color: darkslateblue;
+    background-color: whitesmoke;
+}
+
+.calculator__key {
+    width: 41px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    transition: all .2s;
+    text-transform: uppercase;
+    background: white;
+}
+
+.calculator__key--equal {
+    width: 98px;
+}
+
+.calculator__key:hover {
+    /*background-color: yellow;*/
+    background: url("images/shrek_button.png") no-repeat;
+    background-size: cover;
+    font-weight: 700;
+}
+
+.calculator__key::-moz-focus-inner {
+    border: none
+}
 
 
 
