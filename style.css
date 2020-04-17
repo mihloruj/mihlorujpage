@@ -139,8 +139,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #575757;
 }
 
-
-
 .section__title {
     margin-bottom: 20px;
     font-size: 25px;
@@ -172,9 +170,6 @@ h1, h2, h3, h4, h5, h6 {
 .git__link:hover {
     color: #71d642;
 }
-
-
-
 
 .git__link:hover:after {
     opacity: 1;
@@ -277,7 +272,6 @@ h1, h2, h3, h4, h5, h6 {
     background: url("images/kermit_last.gif") no-repeat;
     background-size: 100% 100vh;
 }
-
 
 .calculator {
     position: absolute;
