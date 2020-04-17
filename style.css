@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     width: 100%;
     height: 100vh;
-    background: url('images/bg_main.jpg') center no-repeat;
+    background: url('images/bg_main_kermit.jpg') center no-repeat;
     background-size: cover;
 }
 
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__link:hover {
-    color: #6e1f1f;
+    color: #71d642;
 }
 
 
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 3px;
     opacity: 0;
-    background-color: #6e1f1f;
+    background-color: #71d642;
     top: 100%;
     left: 0;
     z-index: 1;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .info__link:hover {
-    color: #6e1f1f;
+    color: #71d642;
 }
 
 
@@ -139,6 +139,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #575757;
 }
 
+
+
 .section__title {
     margin-bottom: 20px;
     font-size: 25px;
@@ -146,6 +148,36 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+}
+
+.title_links {
+    margin-bottom: 45px;
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+}
+
+.git__link {
+    display: list-item;
+    vertical-align: top;
+    margin: 15px 15px;
+    text-decoration: none;
+    transition: color .2s linear;
+    color: #fff;
+    font-size: 18px;
+}
+
+.git__link:hover {
+    color: #71d642;
+}
+
+
+
+
+.git__link:hover:after {
+    opacity: 1;
 }
 
 .section_subtitle {
@@ -226,29 +258,27 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+#section_1 {
+    background: url('images/kermit_labs_1.jpg') center no-repeat;
+    background-size: 100% 100vh;
+}
+
+#section_2 {
+    background: url('images/kermit_labs_2.jpg') center no-repeat;
+    background-size: 100% 100vh;
+}
+
 #section_3 {
-    background: url("images/bg_test.gif") no-repeat;
+    background: url("images/kermit_labs_3.jpg") no-repeat;
     background-size: 100% 100vh;
 }
 
 #section_4 {
-    background: url("images/rikardo.gif") no-repeat;
-    background-size: 100% 100vh;
-}
-#section_5 {
-    background: url("images/kermit.gif") no-repeat;
+    background: url("images/kermit_last.gif") no-repeat;
     background-size: 100% 100vh;
 }
 
-#section_6 {
-    background: url("images/kermit_surprise.gif") no-repeat;
-    background-size: 100% 100vh;
-}
 
-#section_7 {
-    background: url("images/kermit_floating.gif") no-repeat;
-    background-size: 100% 100vh;
-}
 .calculator {
     position: absolute;
     right: 150px;
