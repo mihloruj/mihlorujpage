@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ружейников М.А.</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__fio">Ружейников Михаил</div>
+            <div class="header__subtext">ИДБ-16-05</div>
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#section_1">Лаба 1</a>
+                <a class="nav__link" href="#section_2">Лаба 2</a>
+                <a class="nav__link" href="#section_3">Лаба 3</a>
+                <a class="nav__link" href="">Лаба 4</a>
+                <a class="nav__link" href="#section_4">Лаба 5</a>
+                <a class="nav__link" href="#section_4">Лаба 6</a>
+                <a class="nav__link" href="#section_4">Лаба 7</a>
+            </nav>
+            <div class="info">
+                <a class="info__link" href="https://github.com/mihloruj/mihlorujpage"  target="_blank">Репозиторий GitHub</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section" id="section_1">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 1</div>
+            <div class="section__inner">
+                <div class="section_subtitle">Диаграмма UML Use Case</div>
+                <div class="diagramm">
+                    <img src="images/uml_case.png" alt="uml Case диаграмма">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section section--even" id="section_2">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 2</div>
+            <div class="section__inner">
+                <div class="section_subtitle">Диаграмма UML Class</div>
+                <div class="diagramm">
+                    <img src="images/uml_class.png" alt="uml Case диаграмма">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="section_3">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 3</div>
+            <div class="section__inner">
+                <div class="section_subtitle">Приложение калькулятор</div>
+                <div class="calculator__info">
+                    <p>Этот калькулятор нужен чтобы калекулировац</p>        
+                </div>
+                <div class="calculator__group">
+                    <div class="calculator__uml">
+                        <img src="images/uml_sequence.png" alt="uml Case диаграмма">
+                    </div>
+                    <div class="calculator">
+                        <form class="calculator__form">
+                            <div class="calculator__row">
+                                <input class="calculator__display" id="display" type="text" disabled />
+                            </div>
+                            <div class="calculator__row">
+                                <button type="button" value="c" class="calculator__key calculator__clear"></button>
+                                <button type="button" value="←" class="calculator__key calculator__backspace"></button>
+                                <button type="button" value="^2" class="calculator__key calculator__power"></button>
+                                <button type="button" value="+" class="calculator__key calculator__button"></button>
+                            </div>
+                            <div class="calculator__row">
+                                <button type="button" value="9" class="calculator__key calculator__button"></button>
+                                <button type="button" value="8" class="calculator__key calculator__button"></button>
+                                <button type="button" value="7" class="calculator__key calculator__button"></button>
+                                <button type="button" value="-" class="calculator__key calculator__button"></button>
+                            </div>
+                            <div class="calculator__row">
+                                <button type="button" value="6" class="calculator__key calculator__button"></button>
+                                <button type="button" value="5" class="calculator__key calculator__button"></button>
+                                <button type="button" value="4" class="calculator__key calculator__button"></button>
+                                <button type="button" value="*" class="calculator__key calculator__button"></button>
+                            </div>
+                            <div class="calculator__row">
+                                <button type="button" value="3" class="calculator__key calculator__button"></button>
+                                <button type="button" value="2" class="calculator__key calculator__button"></button>
+                                <button type="button" value="1" class="calculator__key calculator__button"></button>
+                                <button type="button" value="/" class="calculator__key calculator__button"></button>
+                            </div>
+                            <div class="calculator__row">
+                                <button type="button" value="0" class="calculator__key calculator__button">0</button>
+                                <button type="button" value="." class="calculator__key calculator__button">.</button>
+                                <button type="button" value="=" class="calculator__key calculator__key--equal">=</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section section--even" id="section_4">
+    <div class="container">
+        <div class="section__header">
+            <div class="section__title">Лабораторная работа 5, 6, 7</div>
+            <div class="section__inner">
+                <div class="links_on_comrades">
+                <div class="title_links">Ссылки на результат работы и участников команды</div>
+                <a class="git__link" href="https://stankin.github.io/oop-stat/">Тут находится наш результат - веб-приложение</a>
+                <a class="git__link" href="https://github.com/stankin/oop-stat/projects/1">Тут можно увидеть наш канбан</a>
+                <a class="git__link" href="https://z-lis.github.io/z-lis/#!/topics">Это Захар</a>
+                <a class="git__link" href="https://mavletdinovr.github.io/MavletdinovR-Page/#!/topics">Это Ринат</a>
+                <a class="git__link" href="https://romenkova.github.io/#!/topics">Это Маргарита</a>
+                <a class="git__link" href="https://github.com/desmoll">Это Людмила</a>
+                <a class="git__link" href="https://vmaslikhin1.github.io/designmaslikhin/">Это Вадим</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div id="button-up">
+    <br>
+</div>
+
+<div class="footer">
+    <h3>the end</h3>
+    <br>
+    <h3>2020</h3>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-resource.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js"></script>
+
+  <script src="app/app.module.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/app.component.js"></script>
+  <script src="app/model/topic.service.js"></script>
+  <script src="app/about/about.component.js"></script>
+  <script src="app/topic-list/topic-list.component.js"></script>
+  <script src="app/topic-detail/topic-detail.component.js"></script>
+  <script src="app/text/text.component.js"></script>
+  <script src="app/image/image.component.js"></script>
+  <script src="app/list/list.component.js"></script>
+
+</body>
+
+</html>
